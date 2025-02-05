@@ -1,11 +1,11 @@
 def birthday(month,day,year):
-    return f" Your birthday is {month}/ {day}/ {year}"
+    return f" Your birthday is: {month}/ {day}/ {year}"
 print(birthday("September", 12, 1988))
 print()
 
 
 def address(street,city,state,zipcode):
-    return  f" Your address is {street}, {city}, {state}, {zipcode}"
+    return  f" Your address is: {street}, {city}, {state}, {zipcode}"
 print(address("435 W 35 St.", "New York", "NY", 11462))
 print()
 
