@@ -1,9 +1,3 @@
-'''
-Homework3
-Name: Jai Outland
-github link:
-'''
-
 def positive_or_negative(num):
     return num >= 0
 
