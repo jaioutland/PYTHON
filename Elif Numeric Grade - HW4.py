@@ -1,8 +1,3 @@
-'''
-Homework4
-Name: Jai Outland
-github link:
-'''
 def grade_calculator(score):
     if 0 <= score <= 100: 
          if score >= 90:
