@@ -1,9 +1,3 @@
-'''
-Homework7
-Name: Jai Outland
-github link: 
-'''
-
 def fizzbuzz(num):
     # Print numbers from 1 to n
     for i in range(1, num + 1):
