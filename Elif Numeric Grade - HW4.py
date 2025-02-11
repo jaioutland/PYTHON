@@ -1,5 +1,6 @@
 def grade_calculator(score):
     if 0 <= score <= 100: 
+                            # Grade letter assigned based on the score
          if score >= 90:
             return "A"
     elif score >= 80:
@@ -11,7 +12,7 @@ def grade_calculator(score):
     else:
         return "F"
 
-def even_or_odd(num):  
+def even_or_odd(num):  # Double check to see if the number is divisble by 2
     if num % 2 == 0:
         return "even"
     else:
