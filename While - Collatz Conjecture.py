@@ -1,17 +1,11 @@
-'''
-Homework5
-Name: Jai Outland
-github link:
-'''
-
 def collatz_conjecture(num):
     while num != 1:
-        print(float(num))
+        print(float(num))   # Print number as a float
         if num % 2 == 0:
-            num /= 2
+            num /= 2        # Divide by 2 if the number is even
         else:
-            num = num * 3 + 1
-    print(float(num))            
+            num = num * 3 + 1  # If odd, multiply by 3 and add 1.0
+    print(float(num))       # Print 1.0 as the final value   
      
 
 def add_numbers(num):
@@ -20,7 +14,7 @@ def add_numbers(num):
     while i <= num:
         total += i
         i += 1 
-    print("sum", total)    
+    print("sum", total)    # Print the total sum
 
 
 
