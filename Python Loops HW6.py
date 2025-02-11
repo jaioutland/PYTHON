@@ -1,9 +1,3 @@
-'''
-Homework6
-Name: Jai Outland
-github link:
-'''
-
 def div_by_seven(num):
     # Print all numbers divisible by 7 from 1 up to num
     for i in range(1, num +1):  
@@ -16,8 +10,11 @@ def squares_of_numbers(num):
     for i in range(1, num):
         print(i ** 2)   # Print the square of the number
 
+# Run test
 print("Numbers divisble by 7 up to 30:")
+div_by_seven(30)
 print("\nSquares of numbers up to 5:")
+squares_of_numbers(5)
 
 
 if __name__ == "__main__": # Run test
