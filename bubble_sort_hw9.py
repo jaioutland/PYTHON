@@ -1,9 +1,3 @@
-'''
-Homework9
-Name: Jai Outland
-github link:
-'''
-
 def bubble_sort(lst):
     # Sort a list using the bubble sort function
     n = len(lst)
