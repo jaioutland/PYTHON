@@ -1,9 +1,3 @@
-'''
-multi_level_list_hw11
-Name: Jai Outland
-github link:
-'''
-
 def count_zeros(lst):
     # Counts the zeros in a 2D array
     return sum(1 for row in lst for num in row if num == 0)
