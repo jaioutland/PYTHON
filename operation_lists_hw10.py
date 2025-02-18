@@ -1,9 +1,3 @@
-'''
-operation_lists_hw10
-Name: Jai Outland
-github link:
-'''
-
 def find_missing_number(lst):
     # Find the missing numbers between smallest and largest in a list
     return [num for  num in range(0, max(lst)+ 1) if num not in lst] 
