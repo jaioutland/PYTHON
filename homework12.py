@@ -1,9 +1,3 @@
-'''
-Homework12
-Name: Jai Outland
-github link:
-'''
-
 import math
 
 def rectangle (side1, side2):
@@ -15,7 +9,7 @@ print('')
 
 def circle (radius):
 # Calculate the area of a circle
-    area = round(math.pi * radius ** 2,1)
+    area = math.pi * radius ** 2
     return(f'The area of a circle is {area:.2f} square units')
  
 
