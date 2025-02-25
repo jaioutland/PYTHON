@@ -1,8 +1,3 @@
-'''
-Homework14
-Name: Jai Outland
-github link:
-'''
 # Global Conversion Constants
 lbs_to_kg = 0.453592
 inches_to_meters = 0.0254
