@@ -1,8 +1,3 @@
-'''
-Homework13
-Name: Jai Outland
-github link:
-'''
 def calculate_interest(principal, rate, time):
     interest = principal * rate * time  # Calculate interest
     return int(interest)
