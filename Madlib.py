@@ -1,7 +1,3 @@
-Homework Madlib
-Name: Jai Outland
-github link:
-
 def song(verb, feeling, action, object, time, person, emotion, sound):
     print("Higher")
     print("\n\n")    
