@@ -1,8 +1,3 @@
-'''
-Homework15
-Name: Jai Outland
-github link:
-'''
 def factorial(n):
     if n == 1:
         return 1
