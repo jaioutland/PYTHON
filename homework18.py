@@ -1,9 +1,3 @@
-'''
-Homework18
-Name: Jai Outland
-github link:
-'''
-
 def iterate_dictionary(lst): # Repeats through a list to check if each number exists
     dict = {1:"one",2:"two",3:"three"}
     for num in lst:
