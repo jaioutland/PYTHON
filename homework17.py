@@ -1,9 +1,3 @@
-'''
-Homework17
-Name: Jai Outland
-github link:
-'''
-
 def frequency_counter(lst):
     # Counts the frequency of each element in the list
     freq_dict = {} # Stores frequency 
