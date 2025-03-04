@@ -1,4 +1,4 @@
-def iterate_dictionary(lst): # Repeats through a list to check if each number exists
+def iterate_dictionary(lst): # Checks if each numbers exists in dictionary
     dict = {1:"one",2:"two",3:"three"}
     for num in lst:
         try:
@@ -7,7 +7,7 @@ def iterate_dictionary(lst): # Repeats through a list to check if each number ex
             print("Number not in dictionary")
     return
 
-def check_if_positive(lst): # Repeats through a list to check if each number exists
+def check_if_positive(lst): # Checks if numbers are positive
     for num in lst:
         try:
             if num < 0:
@@ -17,7 +17,7 @@ def check_if_positive(lst): # Repeats through a list to check if each number exi
             print(e)
     return
 
-def division(lst): # Repeats through a list to check if each number exists
+def division(lst): # Divides each number by 100
     for num in lst:
         try:
             result = round (100 / num, 2)
