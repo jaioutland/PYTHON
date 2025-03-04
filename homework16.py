@@ -1,8 +1,3 @@
-'''
-Homework16
-Name: Jai Outland
-github link:
-'''
 import math
 
 def pythagorean_thm(tuple):
