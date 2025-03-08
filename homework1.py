@@ -1,9 +1,3 @@
-'''
-Homework1
-Name: Jai Outland
-github link: 
-'''
-
 import random
 
 def check(guess, actual_number):   # Check function 
