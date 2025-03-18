@@ -1,11 +1,4 @@
-'''
-Homework22
-Name: Jai Outland
-github link: 
-'''
-
 # Mask all but the last four digits
-
 
 def mask_creditcard(string):
     if len(string) <= 4:
@@ -15,7 +8,6 @@ def mask_creditcard(string):
     return mask_part + last_four
 
 # Remove all vowels from the string
-
 
 def remove_vowels(string):
     vowels = "aeiouAEIOU"
