@@ -1,11 +1,4 @@
-'''
-Homework20
-Name: Jai Outland
-github link:
-'''
-
 # Converts strings to ASCII Value
-
 
 def convert_to_ascii(string):
     if len(string) == 1:
