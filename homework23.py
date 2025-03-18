@@ -1,12 +1,7 @@
-'''
-Homework23
-Name: Jai Outland
-github link:
-'''
-
 
 def group_by_first_letter(words):
-    result = {}   # Store all words by first letter
+    # Store all words by first letter
+    result = {} 
     for word in words:
         first_letter = word[0].lower()
         if first_letter not in result:
