@@ -1,11 +1,4 @@
-'''
-Homework21
-Name: Jai Outland
-github link: 
-'''
-
 # Remove alphanumeric characters
-
 
 def is_palindrome(string):
     filter_string = []
