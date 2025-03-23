@@ -1,10 +1,3 @@
-'''
-Homework24
-Name: Jai Outland
-github link: 
-'''
-
-
 def is_valid_password(word):
     if len(word) < 8:
         return False
