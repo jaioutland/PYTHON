@@ -1,10 +1,3 @@
-'''
-Homework24
-Name: Jai Outland
-github link: 
-'''
-
-
 def flowers(idx, list_of_flowers):
     try:
         if not isinstance(idx, int):
