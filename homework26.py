@@ -1,10 +1,3 @@
-'''
-Homework24
-Name:Jai Outland
-github link:
-'''
-
-
 def dictionary_exceptions(key, flower_dict):
     try:     # Check if key not valid flower name
         if not isinstance(key, str) or key.strip() == "" or key not in flower_dict:
