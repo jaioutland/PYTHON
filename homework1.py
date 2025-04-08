@@ -1,40 +1,50 @@
 '''
 Homework1
 Name: Jai Outland
-github link: https://github.com/jaioutland/PYTHON/blob/main/homework1.py
+github link:
+Note: Remember to use comments for each function.
+doc strings should include what each input consists of, 
+what the expected output is and a description of the function.
 '''
 
-import random
 
-def check(guess, actual_number):   # Check function 
-    if guess == 1:
-        return "You Got It!"
-    elif guess <=4:
-        return "Very Hot!"
-    elif guess <= 6:
-        return "Hot"
-    elif guess <=8:
-        return "Cool"
-    else:
-        return "Cold"
-    True
-    
-def main(actual_number):    # Main function
-    while True:
-        try:
-            guess = int(input("Enter your guess (1-100):"))
-            if guess < 1 or guess > 100:
-                print("Please enter a number between 1 and 100")
-            result = check(guess,actual_number)
-            print(result)
-            if result == "You Got It!":
-                break
-        except ValueError:
-                print("Please enter valid integer.")
-    True
+class Bank_Account:  # Standard bank account with deposits, withdrawals and account balance check
+    def __init__(self, name, starting_amount):
+        self.name = name
+        self.account_balance = starting_amount
+        self.account = starting_amount
 
-actual_number = random.randint(1,100)  # Random number generates between 1 and 100
-main(actual_number)    # Main fucntion will run
+    def account(self):  # Will reflect a positive balance
+        return self.account_balance
+
+    def __repr__(self):
+        return f"Bank_Account(name='{self.name}', Account Balance={self.account_balance})"
+
+    def __str__(self):
+        return f"Account Name: {self.name}\nAccount Balance: {self.account_balance}"
+
+    def deposit(self, amount):  # Adds money to account if account is positive
+        if amount > 0:
+            self.account_balance += amount
+            self.account = self.account_balance
+            print(f"{amount} deposited. New balance: {self.account_balance}")
+        else:
+            print("Please deposit a positive number.")
+
+    def withdraw(self, amount):  # Subtracts money from the account if funds are available
+        if amount > 0:
+            if self.account_balance >= amount:
+                self.account_balance -= amount
+                self.account = self.account_balance
+                print(f"{amount} withdrawn. New balance: {self.account_balance}")
+            else:
+                print("Insufficient funds.")
+        else:
+            print("Please withdraw an amount greater than zero.")
+
+    def check_balance(self):  # Will displat current account balance
+        print(f"Balance: {self.account_balance}")
+
 
 if __name__ == "__main__":
     import doctest
