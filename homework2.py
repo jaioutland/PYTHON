@@ -1,10 +1,6 @@
 '''
 Homework2
 Name: Jai Outland
-github link:
-Note: Remember to use comments for each function.
-doc strings should include what each input consists of, 
-what the expected output is and a description of the function.
 '''
 
 
