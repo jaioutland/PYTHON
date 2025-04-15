@@ -2,7 +2,6 @@ pet_assignment.py
 '''
 Pet Class
 Name: Jai Outland
-github link: 
 '''
 # Define the Pet class
 
