@@ -1,11 +1,9 @@
-
 '''
 Pet Class
 Name: Jai Outland
 '''
+
 # Define the Pet class
-
-
 class Pet:
     def __init__(self, kind, breed, name):
         self.kind = kind
