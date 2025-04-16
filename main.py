@@ -36,9 +36,9 @@ def main():
 
     # Pay rate feedback
     if pay_rate > 50:
-        print("Note: This is a high-paying position!")
+        print("Note: This position pays well!")
     elif pay_rate < 15:
-        print("Note: This is below the average wage.")
+        print("Note: That is below minimum wage.")
 
     print("\nThank you!\n")
 
