@@ -1,8 +1,3 @@
-"""
-Jai Outland
-Github: 
-personal_diary.py
-"""
 
 # Basic diary program
 
