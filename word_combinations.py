@@ -1,7 +1,3 @@
-"""
-Jai Outland
-Github:
-"""
 
 # Function that yields all possible two-letter combinations
 
