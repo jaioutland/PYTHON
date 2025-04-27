@@ -1,8 +1,3 @@
-"""
-Jai Outland
-Github:
-"""
-
 import os
 
 # Directory Path
@@ -10,7 +5,7 @@ desktop_path = os.path.expanduser("~/Desktop")
 
 main_dir = os.path.join(desktop_path, "MyFiles")
 
-# Print the current working directory
+# Print the current directory
 print("Working directory:", os.getcwd())
 
 if not os.path.exists(main_dir):
@@ -22,7 +17,7 @@ else:
 # List of subdirectory names
 subdirs = ["Docs", "Images", "Videos"]
 
-# Create each subdirectory inside 'MyFiles'
+# Create subdirectory inside 'MyFiles'
 for subdir in subdirs:
     path = os.path.join(main_dir, subdir)
     if not os.path.exists(path):
