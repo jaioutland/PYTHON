@@ -1,10 +1,3 @@
-"""
-Jai Outland
-Github:
-"""
-import datetime
-
-
 def main():
 
     print("\n\n")
