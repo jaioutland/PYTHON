@@ -1,8 +1,3 @@
-"""
-Jai Outland
-Github:
-"""
-
 import calendar
 import datetime
 
